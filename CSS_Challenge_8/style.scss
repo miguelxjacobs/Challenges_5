@@ -1,0 +1,24 @@
+/* Styled by Miguel */
+
+.container{
+  width: 600px;
+  height:300px;
+  background-color: black;
+  margin:auto;
+  margin-top: 100px;
+  overflow: hidden;
+  .ribbon{
+    width: 200px;
+    position: relative;
+    background-color: yellow;
+    text-align: center;
+    line-height: 50px;
+    top: 20px;
+    left: -55px;
+    transform: rotate(-45deg);
+    a {
+      text-decoration: none;
+      color: gray;
+    }
+  }
+}
