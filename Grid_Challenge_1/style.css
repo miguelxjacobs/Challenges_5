@@ -1,0 +1,65 @@
+/* Styled by Miguel Jacobs */
+/* Using html tag as a container */
+html {
+  height: 1200px;
+  padding: 30px;
+  /* Structure/Layout of website */ }
+  html body {
+    display: grid;
+    grid-template-areas: "header header header" "article article aside" "section section section" "footer footer footer";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 10px;
+    height: 100vh; }
+
+/* Applying default styling to tags */
+html, header, article, aside, footer {
+  padding: 20px;
+  border: 5px black solid; }
+
+/* Sectioning of tags */
+#myheader {
+  grid-area: header;
+  padding: 30px 0 30px 70px; }
+  #myheader .nav_ul {
+    word-spacing: 50px; }
+    #myheader .nav_ul .nav_li {
+      display: inline-block;
+      background-color: blue;
+      padding: 30px 90px 30px 90px; }
+
+#myarticle {
+  grid-area: article;
+  padding-top: 50px; }
+
+#myaside {
+  grid-area: aside;
+  text-align: center; }
+
+#mysection {
+  grid-area: section;
+  text-align: center; }
+  #mysection .pictures {
+    padding: 0 50px 0 50px;
+    border: 5px black solid; }
+
+section {
+  padding: 20px; }
+
+/* The footer */
+#myfooter {
+  display: inline-flex;
+  grid-area: footer;
+  /* Image positioning */
+  /* Text positioning */ }
+  #myfooter #footer_image {
+    display: grid;
+    grid-column: 1 / span 2;
+    width: 350px;
+    height: 300px; }
+  #myfooter #footer_text {
+    display: grid;
+    grid-column: 2 / span 4;
+    padding: 100px 200px 50px 200px; }
+
+/*# sourceMappingURL=style.css.map */
