@@ -1,0 +1,33 @@
+/* Style conversion by Miguel */
+/* Page structure */
+#page {
+  width: 650px;
+  height: 770px;
+  margin-left: 30%;
+  box-shadow: 1px 10px 10px 5px #aaaaaa;
+  /*Content*/ }
+  #page #content {
+    margin-left: 27px;
+    /* Content alignment */ }
+    #page #content #input_user {
+      margin-left: 100px; }
+    #page #content #input_password {
+      margin-left: 91px; }
+    #page #content #input_name {
+      margin-left: 114px; }
+    #page #content #input_address {
+      margin-left: 99px; }
+    #page #content .country {
+      margin-left: 99px; }
+    #page #content #input_zip {
+      margin-left: 90px; }
+    #page #content #input_email {
+      margin-left: 114px; }
+    #page #content #fieldset_one {
+      width: 293px; }
+    #page #content #fieldset_two {
+      width: 293px; }
+    #page #content #button_style {
+      margin-left: 265px; }
+
+/*# sourceMappingURL=style.css.map */
